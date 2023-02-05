@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ff004527f1.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <nav id="nav">
+        <div class="navlinks">
+            <div class="logo"><img src="images/logo.png" alt="logo"></div>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-folder"></i><span>My NFTs</span></a></li>
+
+                <li><a href="#"><i class="fa-solid fa-bell"></i><span>Smart Alerts</span></a></li>
+
+                <li><a href="#"><i class="fa-solid fa-copy"></i><span>Top Collections</span></a></li>
+
+                <li><a href="#"><i class="fa-solid fa-chart-simple"></i><span>Market Overview</span></a></li>
+            </ul>
+            <div class="watchlist">
+                <a href="#">Watch List</a>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </div>
+
+        <div class="settings">
+            <ul>
+                <li>
+                    <a href="#"><i class="fa-solid fa-gear"></i>Settings</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-headset"></i>Support</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header id="cabecalho">
+        <div class="topcollections">
+            <h2>Top Collections</h2>
+            
+            <button id="menu" onclick="menu()"><i class="fa-solid fa-bars" id="icon"></i></button>
+        </div>
+        <div id="sino">
+            <div class="notifications">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div class="profile">
+                <div class="picture">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="name">
+                    <span>@Samukk.a</span> <br>
+                    <span id="id">ID: 1234567</span>
+                </div>
+                <div class="more">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- MAIN -->
+    <main id="principal">
+            <div class="content">
+                <div class="profile-content">
+                    <div class="bg">
+                        <img src="images/bg (2).jpg">
+                        <img src="images/user4.jpg" alt="">
+                    </div>
+                    <div class="profile-details">
+                        <div class="text">
+                            <h2>Rare Land NFT</h2>
+                            <p>Welcome to Rare Land. Rare Land NFTs are the gateway to unlock <br> our music game with 100+ songs and battle</p>
+                        </div>
+                        <div class="filter-search">
+                            <div class="filter">
+                                <a href="#">On sale</a>
+                                <a href="#">Sold</a>
+                                <a href="#">Owned</a>
+                                <a href="#">Created</a>
+                                <a href="#">Like</a>
+                            </div>
+                            <div class="search">
+                                <label>
+                                    <div>
+                                        <input type="text" name="searchbar" id="searchbar" placeholder="Search">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="purchase-nfts">
+                        <div class="nft-box">
+                            <!-- HEADER -->
+                            <div class="header">
+                                <div class="logo-company"><img src="images/company.jpg">
+                                    <div class="name">
+                                        <span id="name">Saari.eth</span>
+                                        <span>@sare 22</span>
+                                    </div>
+                                </div>
+                                <div class="like"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+                            <!-- MAIN -->
+                            <div class="main">
+                                <img src="images/nft1.jpg">
+                            </div>
+
+                            <!-- footer -->
+                            <div class="footer">
+                                <div class="floor-price">
+                                    <span>Floor Price</span> <br>
+                                    <span><img src="images/ethereum.png">0.0005</span>
+                                </div>
+                                <div class="highest-bid">
+                                    <span>highest-bid</span> <br>
+                                    <span><img src="images/ethereum.png">0.015</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nft-box">
+                            <!-- HEADER -->
+                            <div class="header">
+                                <div class="logo-company"><img src="images/company.jpg">
+                                    <div class="name">
+                                        <span id="name">Saari.eth</span>
+                                        <span>@sare 22</span>
+                                    </div>
+                                </div>
+                                <div class="like"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+                            <!-- MAIN -->
+                            <div class="main">
+                                <img src="images/nft2.jpg">
+                            </div>
+
+                            <!-- footer -->
+                            <div class="footer">
+                                <div class="floor-price">
+                                    <span>Floor Price</span> <br>
+                                    <span><img src="images/ethereum.png">0.0005</span>
+                                </div>
+                                <div class="highest-bid">
+                                    <span>highest-bid</span> <br>
+                                    <span><img src="images/ethereum.png">0.015</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nft-box">
+                            <!-- HEADER -->
+                            <div class="header">
+                                <div class="logo-company"><img src="images/company.jpg">
+                                    <div class="name">
+                                        <span id="name">Saari.eth</span>
+                                        <span>@sare 22</span>
+                                    </div>
+                                </div>
+                                <div class="like"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+                            <!-- MAIN -->
+                            <div class="main">
+                                <img src="images/nft3.jpg">
+                            </div>
+
+                            <!-- footer -->
+                            <div class="footer">
+                                <div class="floor-price">
+                                    <span>Floor Price</span> <br>
+                                    <span><img src="images/ethereum.png">0.0005</span>
+                                </div>
+                                <div class="highest-bid">
+                                    <span>highest-bid</span> <br>
+                                    <span><img src="images/ethereum.png">0.015</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nft-box">
+                            <!-- HEADER -->
+                            <div class="header">
+                                <div class="logo-company"><img src="images/company.jpg">
+                                    <div class="name">
+                                        <span id="name">Saari.eth</span>
+                                        <span>@sare 22</span>
+                                    </div>
+                                </div>
+                                <div class="like"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+                            <!-- MAIN -->
+                            <div class="main">
+                                <img src="images/nft4.jpg">
+                            </div>
+
+                            <!-- footer -->
+                            <div class="footer">
+                                <div class="floor-price">
+                                    <span>Floor Price</span> <br>
+                                    <span><img src="images/ethereum.png">0.0005</span>
+                                </div>
+                                <div class="highest-bid">
+                                    <span>highest-bid</span> <br>
+                                    <span><img src="images/ethereum.png">0.015</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nft-box">
+                            <!-- HEADER -->
+                            <div class="header">
+                                <div class="logo-company"><img src="images/company.jpg">
+                                    <div class="name">
+                                        <span id="name">Saari.eth</span>
+                                        <span>@sare 22</span>
+                                    </div>
+                                </div>
+                                <div class="like"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+                            <!-- MAIN -->
+                            <div class="main">
+                                <img src="images/nft5.jpg">
+                            </div>
+
+                            <!-- footer -->
+                            <div class="footer">
+                                <div class="floor-price">
+                                    <span>Floor Price</span> <br>
+                                    <span><img src="images/ethereum.png">0.0005</span>
+                                </div>
+                                <div class="highest-bid">
+                                    <span>highest-bid</span> <br>
+                                    <span><img src="images/ethereum.png">0.015</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nft-box">
+                            <!-- HEADER -->
+                            <div class="header">
+                                <div class="logo-company"><img src="images/company.jpg">
+                                    <div class="name">
+                                        <span id="name">Saari.eth</span>
+                                        <span>@sare 22</span>
+                                    </div>
+                                </div>
+                                <div class="like"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+                            <!-- MAIN -->
+                            <div class="main">
+                                <img src="images/nft7.jpg">
+                            </div>
+
+                            <!-- footer -->
+                            <div class="footer">
+                                <div class="floor-price">
+                                    <span>Floor Price</span> <br>
+                                    <span><img src="images/ethereum.png">0.0005</span>
+                                </div>
+                                <div class="highest-bid">
+                                    <span>highest-bid</span> <br>
+                                    <span><img src="images/ethereum.png">0.015</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nft-box">
+                            <!-- HEADER -->
+                            <div class="header">
+                                <div class="logo-company"><img src="images/company.jpg">
+                                    <div class="name">
+                                        <span id="name">Saari.eth</span>
+                                        <span>@sare 22</span>
+                                    </div>
+                                </div>
+                                <div class="like"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+                            <!-- MAIN -->
+                            <div class="main">
+                                <img src="images/nft6.jpg">
+                            </div>
+
+                            <!-- footer -->
+                            <div class="footer">
+                                <div class="floor-price">
+                                    <span>Floor Price</span> <br>
+                                    <span><img src="images/ethereum.png">0.0005</span>
+                                </div>
+                                <div class="highest-bid">
+                                    <span>highest-bid</span> <br>
+                                    <span><img src="images/ethereum.png">0.015</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nft-box">
+                            <!-- HEADER -->
+                            <div class="header">
+                                <div class="logo-company"><img src="images/company.jpg">
+                                    <div class="name">
+                                        <span id="name">Saari.eth</span>
+                                        <span>@sare 22</span>
+                                    </div>
+                                </div>
+                                <div class="like"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+                            <!-- MAIN -->
+                            <div class="main">
+                                <img src="images/nft8.jpg">
+                            </div>
+
+                            <!-- footer -->
+                            <div class="footer">
+                                <div class="floor-price">
+                                    <span>Floor Price</span> <br>
+                                    <span><img src="images/ethereum.png">0.0005</span>
+                                </div>
+                                <div class="highest-bid">
+                                    <span>highest-bid</span> <br>
+                                    <span><img src="images/ethereum.png">0.015</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        
+                    </div>
+
+                </div>
+
+                <!-- UPCOMING NFTs -->
+                <div class="upcoming-nfts">
+                    <div class="list-nfts">
+                        <div class="text">
+                            <h3>Upcoming NFTs</h3>
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <img src="images/sideNFT.jpg">
+                                <div class="name-nft">
+                                    <span>NFTStreamers</span> <br>
+                                    <span id="arroba">@Cooper</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/sideNFT3.jpg">
+                                <div class="name-nft">
+                                    <span>NFTStreamers</span> <br>
+                                    <span id="arroba">@McKinney</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/sideNFT2.jpg">
+                                <div class="name-nft">
+                                    <span>Smartokens</span> <br>
+                                    <span id="arroba">@Robertson</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/sideNFT$.jpg">
+                                <div class="name-nft">
+                                    <span>ThriveTrove</span> <br>
+                                    <span id="arroba">@McKinney</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/sideNFT6.jpg">
+                                <div class="name-nft">
+                                    <span>NFTStreamers</span> <br>
+                                    <span id="arroba">@Cooper</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/sideNFT7.jpg">
+                                <div class="name-nft">
+                                    <span>NFTStreamers</span> <br>
+                                    <span id="arroba">@Cooper</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- TOP CREATOR -->
+                <div class="top-creator">
+                    <div>
+                        <div class="text">
+                            <h3>Top Creator</h3>
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <img src="images/user3.jpg">
+                                <div class="name-nft">
+                                    <span>Esther Howards</span> <br>
+                                    <span id="arroba">@McKinney</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <img src="images/user2.jpg">
+                                <div class="name-nft">
+                                    <span>Esther Howards</span> <br>
+                                    <span id="arroba">@McKinney</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <img src="images/user5.jpg">
+                                <div class="name-nft">
+                                    <span>Esther Howards</span> <br>
+                                    <span id="arroba">@McKinney</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <img src="images/user.jpg">
+                                <div class="name-nft">
+                                    <span>Esther Howards</span> <br>
+                                    <span id="arroba">@McKinney</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
