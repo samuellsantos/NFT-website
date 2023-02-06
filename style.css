@@ -130,7 +130,7 @@ header .topcollections h2{
     border: none;
     background-color: var(--cor5);
     cursor: pointer;
-    z-index: 100;
+    z-index: 400;
     display: block;
 }
 .topcollections #menu > i{
@@ -233,13 +233,14 @@ main{
     border-radius: 15px 15px 0 0 ;
     position: relative;
 }
-.profile-content .bg img:nth-child(2){
+
+.profile-content .bg .userimg img{
     width: 120px;
     height: 120px;
     position: absolute;
     bottom: -50px;
-    border-radius: 50%;
     left: 45%;
+    border-radius: 50%;
     border: 10px solid var(--cor3);
     transition: all .5s;
 }
@@ -595,6 +596,12 @@ main{
     header{
         flex-direction: column;
     }
+    header{
+        height: 120px;
+    }
+    .profile-content .bg .userimg img{
+        left: 40%;
+    }
 }
 @media (max-width: 511px){
     .content{
@@ -604,6 +611,30 @@ main{
         "conteudo conteudo"
         "lista lista"
         "listadois listadois";
+    }
+}
+@media (max-width: 458px){
+    .filter{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    .filter a {
+        text-align: center;
+    }
+    .profile-content .bg .userimg img{
+        left: 35%;
+    }
+
+}
+
+@media (max-width: 392px){
+    header .topcollections h2{
+        display: none;
+    }
+    .profile-content .bg{
+        height: 150px;
     }
 }
 
